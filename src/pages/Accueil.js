@@ -1,5 +1,8 @@
-const Accueil = () => {
-    
-}
+import Banner from '../components/accueil/Banner';
+import React from 'react';
 
-export default Accueil
+const Accueil = () => {
+  return <Banner />;
+};
+
+export default Accueil;

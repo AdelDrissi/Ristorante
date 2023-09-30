@@ -1,17 +1,17 @@
 import { NavLink } from 'react-router-dom';
-import { useState } from 'react';
+import { useState , React } from 'react';
 // import logo from '../assets/logo/logo2.png';
-import hamburgerMenu from '../assets/icons/more-M.png';
+// import hamburgerMenu from '../assets/icons/more-M.png';
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  const toggleMenu = () => {
-    setIsMenuOpen(!isMenuOpen);
-    console.log(isMenuOpen);
-  };
+  // const toggleMenu = () => {
+  //   setIsMenuOpen(!isMenuOpen);
+  //   console.log(isMenuOpen);
+  // };
 
-  return (
+  return ( 
     <header className="navbar">
       <div className="navbar__logo">
         {/* <NavLink to="/">
@@ -57,11 +57,11 @@ const Navbar = () => {
         </ul>
       </nav>
       <div className="navbar__hamburgerMenu">
-        <img
-          src={hamburgerMenu}
-          alt="Ouvrir le Menu de navigation"
-          onClick={toggleMenu}
-        ></img>
+        {/* <img
+          // src={hamburgerMenu}
+          // alt="Ouvrir le Menu de navigation"
+          // onClick={toggleMenu}
+        ></img> */}
       </div>
     </header>
   );
