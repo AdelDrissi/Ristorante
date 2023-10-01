@@ -3,7 +3,7 @@ const Banner = () => {
     <section className="banner">
       <img src="img1.jpg" className="img_home" alt="" />
       <h1 className="banner__quote" tabIndex="0">
-        Our Menu
+        Best Food Ristorante
       </h1>
     </section>
   );

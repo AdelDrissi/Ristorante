@@ -1,5 +1,5 @@
 import { NavLink } from 'react-router-dom';
-import { useState , React } from 'react';
+import { useState, React } from 'react';
 // import logo from '../assets/logo/logo2.png';
 // import hamburgerMenu from '../assets/icons/more-M.png';
 
@@ -11,19 +11,29 @@ const Navbar = () => {
   //   console.log(isMenuOpen);
   // };
 
-  return ( 
+  return (
     <header className="navbar">
       <div className="navbar__logo">
         {/* <NavLink to="/">
           <img src={logo} alt="revenir à la page d'accueil"></img>
         </NavLink> */}
       </div>
-      <nav
+      <div
         className={`navbar__container ${
           isMenuOpen ? 'navbar__container--open menuAppear' : ''
         }`}
       >
-        <ul className="navbar__container__list">
+        <ul className="navbar__container__list ">
+          <li>
+            <NavLink
+              to="/"
+              className={'navlinks_title'}
+              tabIndex="0"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Ristorante
+            </NavLink>
+          </li>
           <li>
             <NavLink
               to="/"
@@ -55,7 +65,7 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-      </nav>
+      </div>
       <div className="navbar__hamburgerMenu">
         {/* <img
           // src={hamburgerMenu}

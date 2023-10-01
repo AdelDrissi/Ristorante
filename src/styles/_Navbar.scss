@@ -4,15 +4,26 @@
 
 .navbar__container__list {
   display: flex;
-  position: relative;
-  left: 35%;
+  position: absolute;
+  left: 23%;
+  border: 2px solid #fff;
+  padding: 30px 20px;
   list-style-type: none;
 }
 
 .navlinks {
-  padding: 0 35px;
+  padding: 0 65px;
   text-decoration: none;
-  color: black;
+  color: #fff;
   font-family: 'cursive' sans-serif;
   font-size: 23px;
+}
+
+.navlinks_title {
+  color: #fff;
+  padding: 0 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px;
+  font-family:"poppins"
 }
