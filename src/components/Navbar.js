@@ -46,7 +46,7 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/Services"
+              to="/Menu"
               className={'navlinks'}
               tabIndex="0"
               onClick={() => setIsMenuOpen(false)}
@@ -56,12 +56,22 @@ const Navbar = () => {
           </li>
           <li>
             <NavLink
-              to="/Contact"
+              to="/Reservation"
               className={'navlinks'}
               tabIndex="0"
               onClick={() => setIsMenuOpen(false)}
             >
               Reservation
+            </NavLink>
+          </li>
+          <li>
+            <NavLink
+              to="/Contact"
+              className={'navlinks'}
+              tabIndex="0"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact
             </NavLink>
           </li>
         </ul>
