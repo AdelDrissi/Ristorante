@@ -1,0 +1,43 @@
+.slide {
+  float: left;
+}
+
+.slider {
+  overflow: hidden;
+  width: 642px;
+  margin: 160px auto;
+  position: absolute;
+  top: 70%;
+  height: 600px;
+  left: 35%;
+}
+
+// .dish-description {
+//   background-color: $white;
+//   height: 6rem;
+//   border: 3px solid black;
+// }
+
+.slides {
+  width: calc(640px * 5);
+  animation: slide 8s infinite;
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+
+  16% {
+    transform: translateX(-640px);
+  }
+  32% {
+    transform: translateX(-1280px);
+  }
+  48% {
+    transform: translateX(-1929px);
+  }
+  64% {
+    transform: translateX(-2550px);
+  }
+}

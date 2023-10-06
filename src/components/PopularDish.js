@@ -1,3 +1,4 @@
+import React from 'react';
 
 const PopularDish = () => {
   return (
@@ -5,7 +6,7 @@ const PopularDish = () => {
       <img src="Bck2.jpg" className="back_home" alt="" />
       <h2 className="sectionTitle" tabIndex="0">
         {' '}
-        Popular dish
+        Most Popular Dish
       </h2>
     </section>
   );

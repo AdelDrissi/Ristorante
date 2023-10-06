@@ -1,3 +1,5 @@
+@import './_variables';
+
 .back_home {
   height: 900px;
   object-fit: cover;
@@ -5,10 +7,12 @@
   margin-top: -4px;
 }
 
+
 .sectionTitle {
   position: absolute;
   top: 70%;
-  left: 49%;
+  left: 46%;
+  font-size: 200%;
   text-transform: uppercase;
-  color: #fff;
+  color: $white;
 }
