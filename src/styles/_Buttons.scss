@@ -1,0 +1,30 @@
+@import './_variables';
+
+.btn {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 15px 30px;
+  letter-spacing: 0.05rem;
+
+  &:hover{
+   background: #c7ad88;
+   color: white;
+   transition: 0.5s;
+  }
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  position: absolute;
+  top: 94%;
+  left: 49%;
+  
+}

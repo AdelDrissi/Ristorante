@@ -18,7 +18,7 @@ const Navbar = () => {
           <img src={logo} alt="revenir à la page d'accueil"></img>
         </NavLink> */}
       </div>
-      <div
+      <nav
         className={`navbar__container ${
           isMenuOpen ? 'navbar__container--open menuAppear' : ''
         }`}
@@ -75,7 +75,8 @@ const Navbar = () => {
             </NavLink>
           </li>
         </ul>
-      </div>
+      </nav>
+      
       <div className="navbar__hamburgerMenu">
         {/* <img
           // src={hamburgerMenu}
