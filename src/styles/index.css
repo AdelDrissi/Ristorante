@@ -1,18 +1,29 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=La+Belle+Aurore&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Roboto:wght@100&display=swap");
 .navbar__container__list {
   display: flex;
-  position: relative;
-  left: 35%;
+  position: absolute;
+  left: 23%;
+  border: 2px solid #ffffff;
+  padding: 30px 20px;
   list-style-type: none;
 }
 
 .navlinks {
-  padding: 0 35px;
+  padding: 0 65px;
   text-decoration: none;
-  color: black;
+  color: #ffffff;
   font-family: "cursive" sans-serif;
   font-size: 23px;
+}
+
+.navlinks_title {
+  color: #fff;
+  padding: 0 40px;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 24px;
+  font-family: "poppins";
 }
 
 .img_home {
@@ -24,11 +35,147 @@
 
 .banner__quote {
   text-align: center;
-  position: relative;
-  top: 10%;
+  position: absolute;
+  top: 20%;
+  left: 39%;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: cursive, sans-serif;
+}
+
+.back_home {
+  height: 800px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  margin-top: -4px;
+}
+
+.sectionTitle {
+  position: absolute;
+  top: 60%;
+  left: 44%;
+  font-size: 200%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.slide {
+  float: left;
+}
+
+.slider {
+  overflow: hidden;
+  width: 642px;
+  margin: 100px auto;
+  position: absolute;
+  top: 62%;
+  height: 45%;
+  left: 36%;
+}
+
+.slides {
+  width: 3200px;
+  -webkit-animation: slide 8s infinite;
+          animation: slide 8s infinite;
+}
+
+@-webkit-keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  16% {
+    transform: translateX(-640px);
+  }
+  32% {
+    transform: translateX(-1280px);
+  }
+  48% {
+    transform: translateX(-1929px);
+  }
+  64% {
+    transform: translateX(-2550px);
+  }
+}
+
+@keyframes slide {
+  0% {
+    transform: translateX(0);
+  }
+  16% {
+    transform: translateX(-640px);
+  }
+  32% {
+    transform: translateX(-1280px);
+  }
+  48% {
+    transform: translateX(-1929px);
+  }
+  64% {
+    transform: translateX(-2550px);
+  }
+}
+.btn {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 15px 30px;
+  letter-spacing: 0.05rem;
+}
+.btn:hover {
+  background: #c7ad88;
+  color: white;
+  transition: 0.5s;
+}
+
+.btnContainer {
+  display: flex;
+  justify-content: center;
+  margin-top: 15%;
+  position: absolute;
+  top: 97%;
+  left: 49%;
+}
+
+.back_reservation {
+  height: 800px;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-top: -10px;
+}
+
+.title_reservation {
+  position: absolute;
+  color: white;
+  left: 43%;
+  margin-top: 15%;
+  font-family: "cursive";
+  font-size: 80px;
+}
+
+.open_hours {
+  color: #c7ad88;
+  left: 40%;
+  margin-top: 21%;
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  text-align: center;
 }
 
 body {
   overflow-x: hidden;
-  margin: 0;
+  margin: 0 auto;
+}
+
+* {
+  box-sizing: border-box;
 }/*# sourceMappingURL=index.css.map */

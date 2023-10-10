@@ -1,0 +1,27 @@
+.back_reservation {
+  height: 800px;
+  width: 100%;
+  object-fit: cover;
+  margin-top: -10px;
+}
+
+.title_reservation {
+  position: absolute;
+  color: white;
+  left: 43%;
+  margin-top: 15%;
+  font-family: 'cursive';
+  font-size: 80px;
+}
+
+.open_hours {
+  color: $GoldColor;
+  left: 40%;
+  margin-top: 21%;
+  position: absolute;
+}
+
+.container {
+  display: flex;
+  text-align: center;
+}
