@@ -64,16 +64,6 @@ const Navbar = () => {
               Reservation
             </NavLink>
           </li>
-          <li>
-            <NavLink
-              to="/Contact"
-              className={'navlinks'}
-              tabIndex="0"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Contact
-            </NavLink>
-          </li>
         </ul>
       </nav>
       

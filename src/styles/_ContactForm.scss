@@ -1,0 +1,20 @@
+.contact {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__input,
+.contact__textarea,
+.contact__button {
+  margin: 0.3rem 0 1rem 0;
+  padding: 1.4rem;
+}
+
+.contact__form button {
+  font-size: 1.27rem;
+}

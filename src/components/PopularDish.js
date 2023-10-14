@@ -1,6 +1,6 @@
 import React from 'react';
 import { HashLink as Link } from 'react-router-hash-link';
-import Bck2 from '../assets/images/Bck2-min.jpg';
+import Bck3 from '../assets/images/Bck3.jpg';
 
 const PopularDish = () => {
   return (
@@ -10,7 +10,7 @@ const PopularDish = () => {
           En savoir plus
         </Link>
       </div>
-      <img src={Bck2} className="back_home" alt="" />
+      <img src={Bck3} className="back_home" alt="" />
 
       <h2 className="sectionTitle" tabIndex="0">
         {' '}

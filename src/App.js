@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Accueil from './pages/Accueil';
 import Menu from './pages/Menu';
-import Footer from './components/Footer';
+import ContactForm from './components/ContactForm';
 import Contact from './pages/Contact';
 
 
@@ -16,7 +16,7 @@ const App = () => {
         <Route path="/contacts" element={<Contact />} />
         <Route path="*" element={<Accueil />} />
       </Routes>
-      <Footer />
+      <ContactForm />
     </BrowserRouter>
   );
 };
