@@ -6,6 +6,7 @@ const Banner = () => {
       <img src={img1} className="img_home" alt="" />
       <h1 className="banner__quote" tabIndex="0">
         Best Ristorante Food Since 2000
+        <h3>Fresh and Prenium ingredients</h3>
       </h1>
     </section>
   );

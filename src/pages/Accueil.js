@@ -4,16 +4,18 @@ import React from 'react';
 import Slider from '../components/Slider';
 import { HashLink as Link } from 'react-router-hash-link';
 import Tobook from '../components/Tobook';
+import ContactForm from '../components/ContactForm';
 
 const Accueil = () => {
   return (
-    <main>
+    <>
       <Banner />
       <PopularDish />
       <Tobook />
       <Link />
       <Slider />
-    </main>
+      <ContactForm/>
+    </>
   );
 };
 

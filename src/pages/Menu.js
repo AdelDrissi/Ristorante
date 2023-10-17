@@ -1,6 +1,13 @@
+import Menus from "../components/Menus";
+
+
 
 const Menu = () => {
-    return 
+  return (
+    <>
+      <Menus/>
+    </>
+  );
 };
 
 export default Menu;

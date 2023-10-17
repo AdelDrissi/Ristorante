@@ -6,11 +6,11 @@ const Tobook = () => {
   return (
     <section className="Reservation">
       <div className="container">
-        <h2 className="title_reservation">Réservation</h2>
-        <img src={BckReservation} className="back_reservation" alt="" />
-        <h3 className="open_hours">
+        <h1 className="titleReservation">Réservation</h1>
+        <h2 className="open_hours">
           OPENING HOUR 8:00 AM - 10:00 PM, EVERY DAY ON WEEK.
-        </h3>
+        </h2>
+        <img src={BckReservation} className="back_reservation" alt="" />
       </div>
       <div className="btnContainer">
         <Link className="btn" to="/Menu">

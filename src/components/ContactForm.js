@@ -2,8 +2,8 @@ import React from 'react';
 
 function ContactForm() {
   return (
-    
     <section className="contact">
+      <h1 className="sectionContact">Contact With Us </h1>
       <form name="contact" className="contact__form">
         <input type="hidden" name="form-name" value="contact" />
         <label for="name">Nom: </label>
@@ -13,7 +13,7 @@ function ContactForm() {
         <input type="email" name="email" />
 
         <label for="message">Message:</label>
-        <textarea name="message" placeholder='Saisissez ici ...'></textarea>
+        <textarea name="message" placeholder="Saisissez ici..."></textarea>
 
         <button type="submit">Envoyer </button>
       </form>

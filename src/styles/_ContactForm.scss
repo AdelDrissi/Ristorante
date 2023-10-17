@@ -1,7 +1,9 @@
 .contact {
-  max-width: 500px;
   margin: 0 auto;
+  max-width: 500px;
+  margin-left: 39%;
 }
+
 
 .contact__form {
   display: flex;
@@ -17,4 +19,8 @@
 
 .contact__form button {
   font-size: 1.27rem;
+}
+
+.sectionContact {
+  text-align: center;
 }
