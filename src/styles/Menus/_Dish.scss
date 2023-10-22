@@ -1,4 +1,3 @@
-
 .banner__dish {
   text-align: center;
   position: absolute;
@@ -6,9 +5,65 @@
   left: 38%;
   font-size: 40px;
   color: $white;
-  font-family: cursive , sans-serif;
+  font-family: cursive, sans-serif;
 }
 
-.description-title{
-    display: flex;
+.back_menus {
+  width: 60%;
+}
+
+.list-content {
+  color: $white;
+  width: 60%;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.price {
+  color: $white;
+  margin: 20px;
+}
+
+.color-title {
+  color: $GoldColor;
+}
+
+.menu-list-items {
+  padding: 30px;
+  padding-top: 10%;
+}
+
+.title-menu-section {
+  color: $white;
+  position: absolute;
+  font-size: 25px;
+  margin: 50px;
+  border-bottom: 2px solid $GoldColor;
+}
+.back_section_menus {
+  object-fit: cover;
+  width: 100%;
+}
+
+.Menus-box {
+  z-index: 2;
+  position: relative;
+}
+
+.Menus_section {
+  position: relative;
+}
+
+.container-menus {
+  display: flex;
+  position: absolute;
+  margin-top: -4px;
+}
+
+.subtitle {
+  color: $GoldColor;
+}
+
+.description-title {
+  display: flex;
 }

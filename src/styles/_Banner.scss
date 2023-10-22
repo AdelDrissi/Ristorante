@@ -1,9 +1,13 @@
-@import "./_variables";
+@import './_variables';
 
 .img_home {
   width: 100%;
   height: 500px;
   object-fit: cover;
+}
+
+.color-subtitle {
+  color: $GoldColor;
 }
 
 .banner__quote {
@@ -13,6 +17,5 @@
   left: 39%;
   font-size: 40px;
   color: $white;
-  font-family: cursive , sans-serif;
-
+  font-family: cursive, sans-serif;
 }
