@@ -8,20 +8,41 @@
   font-family: cursive, sans-serif;
 }
 
-.back_menus {
-  width: 60%;
+.color-text {
+  color: black;
 }
 
-.list-content {
-  color: $white;
-  width: 60%;
+.list-content-maindish {
+  width: 50%;
   margin: 20px;
   margin-top: 20px;
 }
 
-.price {
+.back_menus {
+  width: 65%;
+}
+
+.list-content {
   color: $white;
+  width: 63%;
   margin: 20px;
+  margin-top: 20px;
+}
+
+.left-menus {
+  margin-left: 32%;
+  padding: 25px;
+}
+
+.price-maindish {
+  color: $GoldColor;
+  margin: 20px;
+  font-size: 20px;
+}
+.price {
+  color: $GoldColor;
+  margin: 20px;
+  font-size: 20px;
 }
 
 .color-title {
@@ -31,6 +52,12 @@
 .menu-list-items {
   padding: 30px;
   padding-top: 10%;
+  list-style-type: none;
+}
+.menu-list-maindish {
+  padding: 30px;
+  padding-top: 10%;
+  list-style-type: none;
 }
 
 .title-menu-section {
@@ -40,11 +67,15 @@
   margin: 50px;
   border-bottom: 2px solid $GoldColor;
 }
+
+.back_menus_maindish {
+  width: 35%;
+}
+
 .back_section_menus {
   object-fit: cover;
   width: 100%;
 }
-
 .Menus-box {
   z-index: 2;
   position: relative;
