@@ -1,4 +1,5 @@
 import Appetizers from '../components/Appetizers';
+import Dessert from '../components/Dessert';
 import Maindish from '../components/Maindish';
 
 const Menu = () => {
@@ -6,6 +7,7 @@ const Menu = () => {
     <>
       <Appetizers />
       <Maindish />
+      <Dessert />
     </>
   );
 };

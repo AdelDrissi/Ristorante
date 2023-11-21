@@ -3,10 +3,12 @@
 .navbar__container__list {
   display: flex;
   position: absolute;
-  left: 23%;
+  left: 26%;
+  top: 5%;
   border: 2px solid #ffffff;
   padding: 30px 20px;
   list-style-type: none;
+  transition: all 0.4s ease-in-out;
 }
 
 .navlinks {
@@ -33,6 +35,10 @@
      object-fit: cover;
 }
 
+.color-subtitle {
+  color: #c7ad88;
+}
+
 .banner__quote {
   text-align: center;
   position: absolute;
@@ -44,7 +50,7 @@
 }
 
 .back_home {
-  height: 800px;
+  height: 500px;
   -o-object-fit: cover;
      object-fit: cover;
   width: 100%;
@@ -69,8 +75,8 @@
   width: 642px;
   margin: 100px auto;
   position: absolute;
-  top: 62%;
-  height: 45%;
+  top: 54%;
+  height: 34%;
   left: 36%;
 }
 
@@ -136,10 +142,10 @@
 .btnContainer {
   display: flex;
   justify-content: center;
-  margin-top: 15%;
+  margin-top: 170px;
   position: absolute;
-  top: 97%;
-  left: 49%;
+  top: 100%;
+  left: 50%;
 }
 
 .back_reservation {
@@ -150,32 +156,214 @@
   margin-top: -10px;
 }
 
-.title_reservation {
+.titleReservation {
   position: absolute;
-  color: white;
-  left: 43%;
+  color: #ffffff;
+  margin-left: 41%;
   margin-top: 15%;
+  text-align: center;
   font-family: "cursive";
   font-size: 80px;
 }
 
 .open_hours {
   color: #c7ad88;
-  left: 40%;
-  margin-top: 21%;
+  left: 34%;
+  margin-top: 23%;
   position: absolute;
+}
+
+.btn_Container {
+  left: 39%;
+  position: absolute;
+  margin-top: 16%;
+  display: flex;
 }
 
 .container {
   display: flex;
+  position: relative;
+}
+
+.contact {
+  margin: 0 auto;
+  max-width: 500px;
+  margin-left: 39%;
+}
+
+.contact__form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact__input,
+.contact__textarea,
+.contact__button {
+  margin: 0.3rem 0 1rem 0;
+  padding: 1.4rem;
+}
+
+.contact__form button {
+  font-size: 1.27rem;
+}
+
+.sectionContact {
   text-align: center;
+}
+
+.banner__dish {
+  text-align: center;
+  position: absolute;
+  top: 20%;
+  left: 38%;
+  font-size: 40px;
+  color: #ffffff;
+  font-family: cursive, sans-serif;
+}
+
+.color-text {
+  color: black;
+}
+
+.list-content-maindish {
+  width: 50%;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.back_menus {
+  width: 65%;
+}
+
+.list-content {
+  color: #ffffff;
+  width: 63%;
+  margin: 20px;
+  margin-top: 20px;
+}
+
+.left-menus {
+  margin-left: 46%;
+  width: 82%;
+  padding: 4px;
+  padding-top: 2%;
+}
+
+.price-maindish {
+  color: #c7ad88;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.price {
+  color: #c7ad88;
+  margin: 20px;
+  font-size: 20px;
+}
+
+.color-title {
+  color: #c7ad88;
+}
+
+.menu-list-items {
+  padding: 30px;
+  padding-top: 10%;
+  list-style-type: none;
+}
+
+.menu-list-maindish {
+  padding: 30px;
+  padding-top: 12%;
+  list-style-type: none;
+}
+
+.title-menu-section {
+  color: #ffffff;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  position: absolute;
+  font-size: 25px;
+  margin: 50px;
+  border-bottom: 2px solid #c7ad88;
+}
+
+.title-menu-section-maindish {
+  color: black;
+  position: absolute;
+  font-size: 25px;
+  margin-left: 48%;
+  padding-top: 12%;
+  letter-spacing: 2.5px;
+  border-bottom: 2px solid #c7ad88;
+  text-transform: uppercase;
+}
+
+.back_section_menus {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+}
+
+.Menus-box {
+  z-index: 2;
+  position: relative;
+}
+
+.Menus_section {
+  position: relative;
+}
+
+.container-menus-dish {
+  display: flex;
+  position: absolute;
+  margin-top: -8%;
+}
+
+.container-menus-maindish {
+  display: flex;
+  position: absolute;
+  margin-top: -4px;
+  height: 920px;
+}
+
+.subtitle {
+  color: #c7ad88;
+}
+
+.description-title {
+  display: flex;
+}
+
+.right-menus {
+  width: 94%;
+  padding: 2px;
+  padding-top: 2%;
+}
+
+.title-menu-section-dessert {
+  color: black;
+  position: absolute;
+  font-size: 25px;
+  margin-left: 3%;
+  padding-top: 11%;
+  letter-spacing: 2.5px;
+  border-bottom: 2px solid #c7ad88;
+  text-transform: uppercase;
+}
+
+.container-menus-dessert {
+  display: flex;
+  position: absolute;
+  margin-left: 62%;
+  height: 920px;
 }
 
 body {
   overflow-x: hidden;
-  margin: 0 auto;
 }
 
 * {
   box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=index.css.map */

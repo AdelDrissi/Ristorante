@@ -30,8 +30,10 @@
 }
 
 .left-menus {
-  margin-left: 32%;
-  padding: 25px;
+  margin-left: 46%;
+  width: 82%;
+  padding: 4px;
+  padding-top: 2%;
 }
 
 .price-maindish {
@@ -56,22 +58,30 @@
 }
 .menu-list-maindish {
   padding: 30px;
-  padding-top: 10%;
+  padding-top: 12%;
   list-style-type: none;
 }
 
 .title-menu-section {
   color: $white;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
   position: absolute;
   font-size: 25px;
   margin: 50px;
   border-bottom: 2px solid $GoldColor;
 }
 
-.back_menus_maindish {
-  width: 35%;
+.title-menu-section-maindish {
+  color: black;
+  position: absolute;
+  font-size: 25px;
+  margin-left: 48%;
+  padding-top: 12%;
+  letter-spacing: 2.5px;
+  border-bottom: 2px solid $GoldColor;
+  text-transform: uppercase;
 }
-
 .back_section_menus {
   object-fit: cover;
   width: 100%;
@@ -85,10 +95,17 @@
   position: relative;
 }
 
-.container-menus {
+.container-menus-dish {
+  display: flex;
+  position: absolute;
+  margin-top: -8%;
+}
+
+.container-menus-maindish {
   display: flex;
   position: absolute;
   margin-top: -4px;
+  height: 920px;
 }
 
 .subtitle {

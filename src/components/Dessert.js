@@ -1,19 +1,19 @@
 import React from 'react';
-import Maindishback from '../assets/images/maindishback.jpg';
+import Dessertback from '../assets/images/Dessertback.jpg';
 
-function Appetizers() {
+function Dessert() {
   return (
     <section className="Menus_section">
       <div className="Menus-box">
-        <div className="container-menus-maindish ">
-          <img src={Maindishback} className="back_menus_maindish" alt="" />
-        </div>
+         <div className="container-menus-dessert ">
+           <img src={Dessertback} className="back_menus_dessert" alt="" /> 
+         </div>  
         <div className="container-box">
-          <div className="title-menu-section-maindish">
-            <h1> Plats Principal</h1>
+          <div className="title-menu-section-dessert">
+            <h1> Dessert</h1>
           </div>
           <ul className="menu-list-maindish">
-            <li className="left-menus">
+            <li className="right-menus">
               <div className="list-content-maindish">
                 <h2 className="color-title">Quesadilla</h2>
                 <p className="color-text">
@@ -25,7 +25,7 @@ function Appetizers() {
               </div>
               <span className="price-maindish"> 6,00 €</span>
             </li>
-            <li className="left-menus">
+            <li className="right-menus">
               <div className="list-content">
                 <h2 className="color-title">Quesadilla</h2>
                 <p className="color-text">
@@ -38,7 +38,7 @@ function Appetizers() {
               <span className="price"> 5,50 €</span>
             </li>
 
-            <li className="left-menus">
+            <li className="right-menus">
               <div className="list-content">
                 <h2 className="color-title">Quesadilla</h2>
                 <p className="color-text">
@@ -50,7 +50,7 @@ function Appetizers() {
               </div>
               <span className="price"> 10,00 €</span>
             </li>
-            <li className="left-menus">
+            <li className="right-menus">
               <div className="list-content">
                 <h2 className="color-title">Quesadilla</h2>
                 <p className="color-text">
@@ -69,4 +69,4 @@ function Appetizers() {
   );
 }
 
-export default Appetizers;
+export default Dessert;

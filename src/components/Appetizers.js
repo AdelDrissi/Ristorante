@@ -13,7 +13,7 @@ function Appetizers() {
       </h1>
 
       <section className="Menus_section">
-        <div className="container-menus ">
+        <div className="container-menus-dish ">
           <img src={BackBlackMenus} className="back_menus" alt="" />
           <img src={MenuSectionOne} className="back_section_menus" alt="" />
         </div>
