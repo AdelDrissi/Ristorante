@@ -1,7 +1,7 @@
 import React from 'react';
 import Maindishback from '../assets/images/maindishback.jpg';
 
-function Appetizers() {
+function Maindish() {
   return (
     <section className="Menus_section">
       <div className="Menus-box">
@@ -69,4 +69,4 @@ function Appetizers() {
   );
 }
 
-export default Appetizers;
+export default Maindish;

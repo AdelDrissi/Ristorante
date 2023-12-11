@@ -2,8 +2,41 @@
   margin: 0 auto;
   max-width: 500px;
   margin-left: 39%;
+  margin-top: 7%;
 }
 
+input {
+  padding: 5px;
+  margin: 5px;
+}
+
+.center-area {
+  padding: 10px 35px 8px;
+}
+
+.btn-reservation button {
+  padding: 10px;
+  margin-left: 33%;
+  margin-top: 4%;
+  cursor: pointer;
+  background-color: white;
+  color: $GoldColor;
+  border: 2px solid $GoldColor;
+
+  &:hover {
+    background-color: $GoldColor;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+.sectionContact {
+  color: $GoldColor;
+}
+
+form {
+  margin-top: 10%;
+}
 
 .contact__form {
   display: flex;
