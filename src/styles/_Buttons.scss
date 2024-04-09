@@ -1,6 +1,26 @@
 @import './_variables';
+@import './_mixins';
 
 .btn {
+  text-decoration: none;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 15px 30px;;
+  letter-spacing: 0.05rem;
+
+  &:hover {
+    background: #c7ad88;
+    color: white;
+    transition: 0.5s;
+  }
+}
+
+.btn-tobook {
   text-decoration: none;
   background-color: white;
   color: black;
@@ -22,8 +42,8 @@
 .btnContainer {
   display: flex;
   justify-content: center;
-  margin-top: 170px;
+  // margin-top: 9%;
   position: absolute;
-  top: 100%;
+  top: 97%;
   left: 50%;
 }

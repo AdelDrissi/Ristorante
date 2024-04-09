@@ -3,6 +3,10 @@
   max-width: 500px;
   margin-left: 39%;
   margin-top: 7%;
+  @include smartphoneOnly {
+    width: 100%;
+    display: contents;
+  }
 }
 
 input {

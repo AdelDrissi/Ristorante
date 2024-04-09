@@ -1,0 +1,17 @@
+@mixin tabAndLess {
+  @media (max-width: 1026px) {
+    @content;
+  }
+}
+
+@mixin tabOnly {
+  @media (min-width: 768px) and (max-width: 1024px) {
+    @content;
+  }
+}
+
+@mixin smartphoneOnly {
+  @media (min-width: 320px) and (max-width: 620px) {
+    @content;
+  }
+}

@@ -1,17 +1,22 @@
+// Importation des variables et mixins si nécessaire
 @import './_variables';
+@import './Mixins';
 
-.back_home {
-  height: 500px;
-  object-fit: cover;
-  width: 100%;
-  margin-top: -4px;
+// Styles pour l'image de fond
+.back_home_app {
+  height: 35vw; // Hauteur basée sur 35% de la largeur de la fenêtre
+  object-fit: cover; // Assure que l'image s'adapte et remplit complètement le conteneur
+  width: 100%; // Largeur de l'image à 100% du conteneur parent
+  margin-bottom: -2%;
 }
 
+// Styles pour le titre de section
 .sectionTitle {
-  position: absolute;
-  top: 60%;
-  left: 44%;
-  font-size: 200%;
-  text-transform: uppercase;
-  color: $white;
+  position: absolute; // Positionnement absolu par rapport au parent
+  top: 55%; // Position verticale du titre
+  left: 44%; // Position horizontale du titre
+  font-size: 200%; // Taille de police
+  text-transform: uppercase; // Convertit le texte en majuscules
+  color: $white; // Couleur du texte (utilisation d'une variable Sass)
+  // Autres styles à ajouter si nécessaire
 }

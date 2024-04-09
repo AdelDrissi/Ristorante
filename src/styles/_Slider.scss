@@ -1,3 +1,5 @@
+@import './Mixins';
+
 .slide {
   float: left;
 }
@@ -5,18 +7,21 @@
 .slider {
   overflow: hidden;
   width: 642px;
-  margin: 100px auto;
   position: absolute;
-  top: 54%;
   height: 34%;
   left: 36%;
-}
+  top: 62%;
+  @include smartphoneOnly {
+     width: 100%;
+    }
+  }
 
-// .dish-description {
-//   background-color: $white;
-//   height: 6rem;
-//   border: 3px solid black;
-// }
+
+.dish-description {
+  background-color: $white;
+  height: 6rem;
+  border: 3px solid black;
+}
 
 .slides {
   width: calc(640px * 5);

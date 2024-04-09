@@ -10,7 +10,7 @@ const Tobook = () => {
         <h2 className="open_hours">
           OPENING HOUR 8:00 AM - 10:00 PM, EVERY DAY ON WEEK.
           <div className="btn_Container">
-            <Link className="btn" to="/Reservation">
+            <Link className="btn-tobook" to="/Reservation">
               En savoir plus
             </Link>
           </div>

@@ -5,11 +5,11 @@
 @import './PopularDish';
 @import './Slider';
 @import './buttons';
+@import './Mixins';
 @import './tobook';
 @import './ContactForm';
 @import './Menus/Dish';
 @import './Dessert';
-
 @import './_variables';
 
 // //Polices
@@ -18,10 +18,11 @@
 
 body {
   overflow-x: hidden;
+  margin: 0;
+  padding: 0;
 }
 
 * {
   box-sizing: border-box;
-  padding: 0;
-  margin: 0;
+  list-style-type: none;
 }

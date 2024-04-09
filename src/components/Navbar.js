@@ -1,81 +1,64 @@
-import { NavLink } from 'react-router-dom';
-import { useState, React } from 'react';
-// import logo from '../assets/logo/logo2.png';
-// import hamburgerMenu from '../assets/icons/more-M.png';
+import React from 'react';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBars } from '@fortawesome/free-solid-svg-icons';
+import { Link } from 'react-router-dom'; // Importez Link à la place de NavLink
+import { useState } from 'react';
 
 const Navbar = () => {
+  // States
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
-  // const toggleMenu = () => {
-  //   setIsMenuOpen(!isMenuOpen);
-  //   console.log(isMenuOpen);
-  // };
+  // Comportement
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
 
+  // Render
   return (
-    <header className="navbar">
-      {/* <div className="navbar__logo"> */}
-        {/* <NavLink to="/">
-          <img src={logo} alt="revenir à la page d'accueil"></img>
-        </NavLink> */}
-      {/* </div> */}
-      <nav
-        className={`navbar__container ${
-          isMenuOpen ? 'navbar__container--open menuAppear' : ''
-        }`}
-      >
-        <ul className="navbar__container__list ">
-          <li>
-            <NavLink
-              to="/"
-              className={'navlinks_title'}
-              tabIndex="0"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Ristorante
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/"
-              className={'navlinks'}
-              tabIndex="0"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Accueil
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/Menu"
-              className={'navlinks'}
-              tabIndex="0"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Menu
-            </NavLink>
-          </li>
-          <li>
-            <NavLink
-              to="/Reservation"
-              className={'navlinks'}
-              tabIndex="0"
-              onClick={() => setIsMenuOpen(false)}
-            >
-              Reservation
-            </NavLink>
-          </li>
-        </ul>
-      </nav>
-      
-      <div className="navbar__hamburgerMenu">
-        {/* <img
-          // src={hamburgerMenu}
-          // alt="Ouvrir le Menu de navigation"
-          // onClick={toggleMenu}
-        ></img> */}
+    <section className="navbar">
+      <div className="navbar-content">
+        <Link className="food" to="/">
+          <p className="name">Ristorante</p>
+        </Link>
+        <div
+          className={`anchorLinks ${
+            isMenuOpen ? 'anchorLinks--open AppearLink' : ''
+          }`}
+        >
+          <ul className="anchorLinks__list">
+            <li onClick={() => setIsMenuOpen(false)}>
+              <Link to="/" onClick={() => setIsMenuOpen(false)}>
+                {' '}
+                {/* Utilisez Link au lieu de NavLink */}
+                Accueil
+              </Link>
+            </li>
+            <li onClick={() => setIsMenuOpen(false)}>
+              <Link to="/Menu" onClick={() => setIsMenuOpen(false)}>
+                {' '}
+                {/* Utilisez Link au lieu de NavLink */}
+                Menus
+              </Link>
+            </li>
+            <li onClick={() => setIsMenuOpen(false)}>
+              <Link to="/Reservation" onClick={() => setIsMenuOpen(false)}>
+                {' '}
+                {/* Utilisez Link au lieu de NavLink */}
+                Reservation
+              </Link>
+            </li>
+          </ul>
+        </div>
+        <div className="IconResponsive">
+          <FontAwesomeIcon
+            icon={faBars}
+            className="NavbarIcons"
+            onClick={toggleMenu}
+            aria-label="menu de navigation"
+          />
+        </div>
       </div>
-    </header>
+    </section>
   );
 };
-
 export default Navbar;

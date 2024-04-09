@@ -1,9 +1,28 @@
 @import './_variables';
 
 .img_home {
+  padding-top: 1%;
   width: 100%;
   height: 500px;
   object-fit: cover;
+  text-align: center;
+  @include smartphoneOnly {
+    display: block;
+    object-fit: cover;
+  }
+}
+
+.content-resto {
+  @include smartphoneOnly {
+    width: 100%;
+  }
+}
+
+.back_home {
+  height: 38vw; // Hauteur basée sur 35% de la largeur de la fenêtre
+  object-fit: cover; // Assure que l'image s'adapte et remplit complètement le conteneur
+  width: 100%; // Largeur de l'image à 100% du conteneur parent
+  margin-top: -2%;
 }
 
 .color-subtitle {

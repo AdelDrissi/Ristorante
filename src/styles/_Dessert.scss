@@ -7,18 +7,21 @@
   color: black;
   position: absolute;
   font-size: 25px;
-  margin-left: 3%;
-  padding-top: 11%;
+  left: 3%;
+  top: -3%;
   letter-spacing: 2.5px;
   border-bottom: 2px solid #c7ad88;
   text-transform: uppercase;
 }
-
-
 
 .container-menus-dessert {
   display: flex;
   position: absolute;
   margin-left: 62%;
   height: 920px;
+}
+
+.menu-list-dessert {
+  padding: 30px;
+  padding-top: 3%;
 }
