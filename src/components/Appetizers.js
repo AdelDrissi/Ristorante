@@ -25,7 +25,7 @@ function Appetizers() {
                 <h1> Apéritif</h1>
               </div>
               <ul className="menu-list-items">
-                <li >
+                <li>
                   <div className="list-content">
                     <h2 className="color-title">Olives marinées</h2>
                     <p>
@@ -64,29 +64,29 @@ function Appetizers() {
                 </li>
                 <li>
                   <div className="list-content">
-                    <h2 className="color-title">Quesadilla</h2>
+                    <h2 className="color-title">
+                      Bruschettas à la tomate et à la burrata
+                    </h2>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Ipsam velit quidem placeat, eligendi cupiditate illo a
-                      blanditiis aliquid. Veritatis quod accusantium soluta
-                      pariatur praesentium voluptate eum assumenda, provident
-                      vel fugiat?
+                      Des tranches de pain grillé garnies de tomates fraîches,
+                      d'ail, de basilic et de burrata crémeuse, pour une
+                      explosion de saveurs méditerranéennes.
                     </p>
                   </div>
-                  <span className="price"> 3,90 €</span>
+                  <span className="price"> 4,90 €</span>
                 </li>
                 <li>
                   <div className="list-content">
-                    <h2 className="color-title">Quesadilla</h2>
+                    <h2 className="color-title">
+                      Crostinis au fromage de chèvre et miel
+                    </h2>
                     <p>
-                      Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                      Ipsam velit quidem placeat, eligendi cupiditate illo a
-                      blanditiis aliquid. Veritatis quod accusantium soluta
-                      pariatur praesentium voluptate eum assumenda, provident
-                      vel fugiat?
+                      Des crostinis croustillants garnis de fromage de chèvre
+                      crémeux, arrosés de miel pour une combinaison parfaite de
+                      salé et de sucré
                     </p>
                   </div>
-                  <span className="price"> 9,00 €</span>
+                  <span className="price"> 5,00 €</span>
                 </li>
               </ul>
             </div>
