@@ -1,48 +1,97 @@
-@import './_mixins';
-
-.slide {
-  float: left;
-}
-
 .slider {
+  position: relative;
+  width: 100%;
+  max-width: 600px; /* Ajuste la taille du slider */
+  margin: 0 auto;
   overflow: hidden;
-  width: 642px;
-  position: absolute;
-  height: 34%;
-  left: 36%;
-  top: 62%;
-  @include smartphoneOnly {
-     width: 100%;
-    }
-  }
-
-
-.dish-description {
-  background-color: $white;
-  height: 6rem;
-  border: 3px solid black;
 }
 
 .slides {
-  width: calc(640px * 5);
-  animation: slide 8s infinite;
+  display: flex;
+  transition: transform 0.5s ease;
 }
 
-@keyframes slide {
-  0% {
-    transform: translateX(0);
-  }
+.slide {
+  min-width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
-  16% {
-    transform: translateX(-640px);
+.slide-image {
+  width: 100%;
+  height: 82%;
+  transform: translateY(19%);
+}
+
+button {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  border: none;
+  font-size: 30px;
+  padding: 10px;
+  cursor: pointer;
+  z-index: 10;
+}
+
+button.prev {
+  left: 10px;
+}
+
+button.next {
+  right: 10px;
+}
+
+button:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Style pour le bouton "En savoir plus" */
+.btn-Container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.btn_dish_container {
+  margin: 10%;
+}
+
+.btn_dish {
+  text-decoration: none;
+  background-color: black;
+  color: white;
+  width: 30%;
+  position: relative;
+  left: 40%;
+  cursor: pointer;
+  border: none;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 40px;
+  padding: 15px 30px;
+  letter-spacing: 0.05rem;
+
+  &:hover {
+    background: #c7ad88;
+    color: black;
+    transition: 0.5s;
   }
-  32% {
-    transform: translateX(-1280px);
-  }
-  48% {
-    transform: translateX(-1929px);
-  }
-  64% {
-    transform: translateX(-2550px);
-  }
+}
+
+.btn {
+  background-color: #f39c12;
+  color: white;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #e67e22;
 }

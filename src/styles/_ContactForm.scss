@@ -9,6 +9,22 @@
   }
 }
 
+.text-reservation {
+  border: 1px solid black;
+  text-align: center;
+  width: 100%;
+  color: white;
+  background-color: black;
+  margin-top: 20px;
+  border-radius: 20px;
+
+  &:hover {
+    background: #c7ad88;
+    color: black;
+    transition: 0.5s;
+  }
+}
+
 input {
   padding: 5px;
   margin: 5px;
@@ -16,22 +32,6 @@ input {
 
 .center-area {
   padding: 10px 35px 8px;
-}
-
-.btn-reservation button {
-  padding: 10px;
-  margin-left: 33%;
-  margin-top: 4%;
-  cursor: pointer;
-  background-color: white;
-  color: $GoldColor;
-  border: 2px solid $GoldColor;
-
-  &:hover {
-    background-color: $GoldColor;
-    color: white;
-    transition: 0.5s;
-  }
 }
 
 .sectionContact {

@@ -4,30 +4,34 @@ function ContactForm() {
   return (
     <section className="contact">
       <h1 className="sectionContact">
-        HEURE D'OUVERTURE DE 8H00 À 22H00, TOUS LES JOURS DE LA SEMAINE.{' '}
+        HEURE D'OUVERTURE DE 8H00 À 22H00, TOUS LES JOURS DE LA SEMAINE.
       </h1>
 
       <form name="contact" className="contact__form">
         <input type="hidden" name="form-name" value="contact" />
 
-        <label for="name">Nom: </label>
+        <label htmlFor="name">Nom: </label>
         <input type="text" name="name" />
 
-        <label for="email">Email: </label>
+        <label htmlFor="email">Email: </label>
         <input type="email" name="email" />
 
-        <label for="date">Date: </label>
+        <label htmlFor="date">Date: </label>
         <input type="date" name="date" />
 
-        <label for="telephone">telephone: </label>
+        <label htmlFor="telephone">Téléphone: </label>
         <input type="telephone" name="telephone" />
 
-        <label for="message">Message:</label>
+        <label htmlFor="message">Message:</label>
         <textarea name="message" placeholder="Saisissez ici..."></textarea>
       </form>
-      <span className="btn-reservation">
-        <button>Make Reservation</button>
-      </span>
+
+      {/* Span en bas du formulaire */}
+      <div>
+        <span className="btn-reservation">
+          <div className='text-reservation'>Make Reservation</div>
+        </span>
+      </div>
     </section>
   );
 }

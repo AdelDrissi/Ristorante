@@ -13,10 +13,9 @@
 // Styles pour le titre de section
 .sectionTitle {
   position: absolute; // Positionnement absolu par rapport au parent
-  top: 55%; // Position verticale du titre
-  left: 44%; // Position horizontale du titre
+  left: 40%; // Position horizontale du titre
   font-size: 200%; // Taille de police
   text-transform: uppercase; // Convertit le texte en majuscules
-  color: $white; // Couleur du texte (utilisation d'une variable Sass)
+  color: black;
   // Autres styles à ajouter si nécessaire
 }

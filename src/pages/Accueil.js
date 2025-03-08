@@ -10,9 +10,9 @@ const Accueil = () => {
     <>
       <Banner />
       <PopularDish />
-      <Tobook />
       <Link />
       <Slider />
+      <Tobook />
     </>
   );
 };
